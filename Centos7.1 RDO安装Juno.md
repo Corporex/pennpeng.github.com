@@ -32,6 +32,7 @@ sudo yum install -y openstack-packstack
 7，开始安装
 packstack --answer-file=juno.txt
 安装很耗时，还会出错，一般根据日志能找到原因，除非是官方的bug。
+
 8,安装完后要配置网络
 配置br-ex桥接文件
 ```
